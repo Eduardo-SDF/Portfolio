@@ -1,3 +1,41 @@
 body { 
-    background-color: rgb(66, 66, 66);
+    min-height: 100vh;
+    background-color: #485e60;
+}
+
+.navbar {
+    background-color: #688787;
+    box-shadow: 0 0 12px 2px #90bab7;
+}
+
+.footer {
+    background-color: #1e232b;
+}
+
+.perfilDiv {
+    padding: 50px;
+    text-align: center;
+}
+
+.perfil {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 2px #90bab7;
+}
+
+.contato {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.input {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.inputmsg {
+    margin: 5px;
+    border-radius: 5px;
+    padding-bottom: 40px
 }
