@@ -9,38 +9,41 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-sm py-3">
-            <a href="index.html" class="navbar-brand h1 text-light p-1">
+            <a href="index.html" class="navbar-brand h1 text-light p-2">
                 Home
             </a>
             <div class="collapse navbar-collapse" id="navbarBotton">
                 <ul class="navbar-nav">
                     <li class="nav-itens active">
-                        <a href="sobre.html" class="nav-link text-light h2 p-1">
+                        <a href="sobre.html" class="nav-link text-light h2 p-2">
                             Sobre Mim
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link h2 text-light p-1">
+                        <a href="#" class="nav-link h2 text-light p-2">
                             Formação
                         </a>
                     </li>
                     <li>
-                        <a href="profissional.html" class="nav-link h2 text-light p-1">
+                        <a href="profissional.html" class="nav-link h2 text-light p-2">
                             Atuação Profissional
                         </a>
                     </li>
                     <li>
-                        <a href="contato.html" class="nav-link h2 text-light p-1">
-                            Contato
+                        <a href="contato.html" class="nav-link h2 text-light p-2">
+                            Contatos
                         </a>
                     </li>
                     <li>
-                        <a href="portfolio.html" class="nav-link h2 text-light p-1">
+                        <a href="portfolio.html" class="nav-link h2 text-light p-2">
                             Portfólio
                         </a>
                     </li>
@@ -49,13 +52,34 @@
         </nav>
     </header>
 
-    <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-5 fixed-bottom">
+    <div class="formacao">
+        <h2 class="text-center text-light">
+            Formação:
+        </h2>
+        <div class="formConteudo">
+            <h4 class="text-light p-5">
+                Ensino médio completo.<br>
+                Obs.: Cursei ensino médio integrado com técnico na federal, inicialmente no curso de metalurgia do IFJF<br> e depois transferi para automação industrial no IFRJ campus Volta Redonda, mas ao final no sexto período<br> acabei não concluindo por motivos pessoais.
+                <br>Atualmente cursando bacharelado em Sistemas de Informação no Granbery-JF.
+                <br>Cursando também <a class="text-black" href="https://www.udemy.com/course/java-curso-completo/?couponCode=ST19MT60324">"Java COMPLETO Programação Orientada a Objetos + Projetos"</a> na Udemy.
+                <br>E estudando um pouco de outras linguagens de programação, ferramentas da area e inglês nas horas vagas.
+                </h4>
+        </div>
+    </div>
+
+    <footer class="footer d-flex justify-content-between py-5 fixed-bottom">
         <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            <span class="p-2 text-light">Eduardo-SDF © 2024</span>
         </div>
         <div>
-            <a href="https://www.instagram.com/dudu_sdf/?hl=pt-br" target="_blank" class="bi-instagram text-decoration-none text-black p-5">
+            <a href="https://www.instagram.com/dudu_sdf/?hl=pt-br" target="_blank" class="bi-instagram text-decoration-none text-light p-3">
                 dudu_sdf
+            </a>
+            <a href="https://github.com/Eduardo-SDF" target="_blank" class="bi-github text-decoration-none text-light p-3">
+                Eduardo-SDF
+            </a>
+            <a href="https://www.linkedin.com/in/eduardo-santos-4650952a3/" target="_blank" class="bi-linkedin text-decoration-none text-light p-3">
+                Eduardo Santos
             </a>
         </div>
     </footer>
