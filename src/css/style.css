@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-body { 
+
+body {
     min-height: 100vh;
     background-color: #708089;
     font-family: "Roboto Slab", serif;
@@ -48,12 +49,11 @@ body {
 .cards {
     justify-content: center;
     padding-top: 100px;
-    gap:35px;
+    gap: 35px;
 }
 
 .card {
     text-align: center;
-    height: 300px;
 }
 
 .homeimg {
@@ -89,4 +89,3 @@ body {
     padding-top: 30px;
     padding-left: 350px;
 }
-
